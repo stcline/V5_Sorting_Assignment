@@ -1,35 +1,48 @@
-# Arduino_3.25-Controlling_Digital_Output_2
-Let's see what we remember from our first coding assignment.  This is a repeat with a slight variation.  This time there is no starter code.
+Python Portfolio Problem 5 - Automated Sorting System
 
-### Step One: Build the Prototype
+Design and implement an automated sorting system using the VEX V5 platform to address a real-world challenge in waste management or recycling. This project will integrate elements from previous problems while introducing new complexities and real-world applications.
 
-To begin, build this prototype on your breadboard:
+## Project Overview
 
-![Lab 3.2 Prototype](https://github.com/stcline/I2R-3_25-Controlling_Digital_Outputs_2/blob/main/CIRCUIT-3-25.png?raw=true)
+Create a system that can identify, sort, and properly dispose of different types of objects based on their characteristics. This system should utilize multiple sensors, actuators, and custom-designed components to effectively handle various items.
 
-After you have completed the prototype you can test your circuits using the 5V pin to make sure they work.
+## Requirements
 
-### Step Two: Write the Code
+1. Use at least two different types of sensors to identify object characteristics (e.g., color, size, material).
+2. Implement at up to two smart motors (if you need additional actuators, use the legacy motors and servos) for object manipulation and sorting.
+3. Utilize the VEX V5 brain screen to display real-time sorting information and system status.
+4. Write a Python script that integrates all components and implements the sorting logic.
+5. OPTIONAL: Design and 3D print at least one custom component to enhance the sorting mechanism (stl file must be provided by 2/18).
 
-Write a sketch in [Arduino Web Editor](https://create.arduino.cc/editor) that does the following:
-- LED2 blink on for 500 ms
-- LED2 blink off for 500 ms
-  - Repeat this cycle once
-- Pause 1 second
-- LED1 blink on for 250 ms
-- LED1 blink off of 1000 ms
-  - Repeat this cycle twice
-- Pause 2 seconds
-- Both lights blink on at the same time for 500 ms
-- Both lights blink off at the same time for 200 ms
-  - Repeat this cycle forever
+## Suggested Implementation
 
-See the video here for guidance.
+### Sensor Integration
+- Use an analog sensor to identify object types (e.g., plastic, metal, paper).
+- Implement a distance sensor to detect object presence and size.
+- Consider digital sensors to detect objects and other characteristics like weight.
 
-[![Lab 3.25 Prototype](http://img.youtube.com/vi/bVmUTajBu9o/0.jpg)](https://www.youtube.com/watch?v=bVmUTajBu9o "Lab 3.25 Prototype")
+### Actuator Control
+- Use actuators to control a conveyor belt system for object transportation.
+- Implement a servo-controlled arm for precise object placement in sorting bins.
 
-### Step Three: Debug and Submit
+### VEX V5 Brain Display
+- Show real-time sorting statistics (e.g., items sorted by type).
+- Display system status and any error messages.
 
-Make sure your prototype behaves the same way as the one in the video.  As in the previous assignment, make a new file here on GitHub.  Name it **3.25_Controlling_Digital_Output_II** and Commit it to the repository.
+### Custom 3D Printed Component - OPTIONAL
+- Design a specialized gripper attachment for the sorting arm to handle various object shapes.
 
-**REMEMBER: THIS ASSIGNMENT REQUIRES BOTH A VIDEO OF YOUR PROTOTYPE AND CODE SUBMITTED ON GITHUB**
+### Python Script
+- Implement sensor reading and data processing.
+- Control actuators based on sensor input.
+- Manage the sorting logic and decision-making process.
+- Update the brain display with relevant information.
+
+## Evaluation Criteria
+
+1. Functionality: How effectively does the system sort objects?
+2. Sensor Utilization: Creative and effective use of multiple sensors.
+3. Actuator Control: Smooth and precise control of motors and servo.
+4. Code Quality: Well-structured, commented Python code.
+5. Custom Component: Innovative design and practical application of the 3D printed part.
+6. Real-world Applicability: How well does the solution address actual sorting challenges?
