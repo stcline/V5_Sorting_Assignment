@@ -1,12 +1,12 @@
-Python Portfolio Problem 5 - Automated Sorting System
+# :robot: Python Portfolio Problem 5 - Automated Sorting System
 
 Design and implement an automated sorting system using the VEX V5 platform to address a real-world challenge in waste management or recycling. This project will integrate elements from previous problems while introducing new complexities and real-world applications.
 
-## Project Overview
+## 🤓 Project Overview
 
 Create a system that can identify, sort, and properly dispose of different types of objects based on their characteristics. This system should utilize multiple sensors, actuators, and custom-designed components to effectively handle various items.
 
-## Requirements
+## 📝 Requirements
 
 1. Use at least two different types of sensors to identify object characteristics (e.g., color, size, material).
 2. Implement at up to two smart motors (if you need additional actuators, use the legacy motors and servos) for object manipulation and sorting.
